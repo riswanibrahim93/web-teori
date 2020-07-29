@@ -1,0 +1,295 @@
+
+h1{
+	font-family: Times New Roman, Serif;
+	font-size: 20px;
+	text-shadow: 2px, 2px, 2px, red;
+	color: white;
+	padding-left: 100px;
+}
+h4
+{
+	color: white;
+}
+.header{
+	background-color: white;
+	width: 900px;
+	height: 150px;
+	margin: auto;
+	margin-top: 70px;
+}
+.headerleft
+{
+	background-image: url(gambar/java.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: 30px 30px;
+	width: 200px;
+	height: 150px;
+	display: block;
+}
+.headerstrip
+{
+	width: 50px;
+	height: 150px;
+	float: left;
+	margin-left: 170px;
+	background-color: #a9a9a9;
+	display: inline-block;
+}
+.headerright
+{
+	padding-top: 90px;
+	padding-right: 30px; 
+	float:right;
+	width: 650px;
+	height:60px;
+	background-color: #808080;
+	display: block;
+}
+.header2
+{
+	height: 260px;
+	background-image: url(gambar/IMG_1379.HEIC);
+	background-size: cover;
+	background-position: 0 -90px;
+	border-top: 10px solid #808080;
+	border-bottom: 10px solid #a9a9a9;
+	margin-top: 5px;
+	float: none;
+	display: block;
+}
+.header2 p
+{
+	text-align: right;
+	color: white;
+	padding-top: 220px;
+	padding-right: 30px;
+	font-size: 14px;
+}
+p{
+	font-family: Georgia,serif;
+	line-height: 20px;
+	text-align: justify;
+	text-indent: 40px;
+	word-spacing: 5px;
+}
+body
+{
+	background-image: url(gambar/kertas.JPG);
+}
+ol
+{
+	padding: 10px;
+}
+.container
+{
+	width: 900px;
+	margin: auto;
+	padding: 15px;
+	background-color: white;
+}
+.content
+{
+	background-color: #ddffff;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 540px;
+
+}
+.artikel 
+{
+	float: right;
+	margin: auto;
+	width: 300px;
+	background-color: white;
+}
+.artikel .header_art h3
+{
+	font-family: Times New Roman, Serif;
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+}
+.isi
+{
+	border-right: solid;
+}
+.about
+{
+	border-style: solid;
+	margin: auto;
+	width: 230px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 14px;
+}
+.isi h4
+{
+	background-color: #808080;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+}
+.isi1
+{
+	border-style: solid;
+	margin: auto;
+	width: 230px;
+	height: auto;
+	margin-bottom: 15px;
+	text-align: justify;
+	padding: 10px;
+	font-size: 12px;
+}
+.size
+{
+	font-size: 20px;
+}
+.small_caps
+{
+	font-variant: small-caps;
+}
+.header2 p
+{
+	text-align: right;
+	color: white;
+	padding-top: 220px;
+	padding-right: 30px;
+	font-size: 14px;
+}
+.footer
+{
+	background-color: #aeaeae;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 900px;
+	display: inline-block;
+}
+.footer p
+{
+
+	text-align: center;
+	font-size: 12px;
+}
+.topnav a {
+  	float: left;
+  	display: block;
+  	text-align: center;
+  	padding: 10px 20px;
+  	text-decoration: none;
+  	background-color: white;
+  	font-weight: bold;
+  	border-left: solid;
+  	margin-right: 5px;
+  	margin-bottom: 10px;
+}
+.sub
+{
+    padding: 0px 15px;
+}
+.about p
+{
+    padding: 0px 10px;
+}
+a:link {
+  	color: black;
+}
+a:visited {
+  	color: blue;
+}
+a:hover {
+  	color: hotpink;
+}
+a:active {
+  	color: black;
+}
+.tambah_komen
+{
+	margin: auto;
+}
+.tambah_komen button {
+	border-radius: 12px;
+	background-color: white;
+	padding: 10px 20px;
+	color: white;
+	margin-bottom: 30px;
+	margin-left: 40%;
+	color: black; 
+  	border: 2px solid teal;
+}
+button:hover {
+  background-color: teal;
+  color: white;
+}
+.tambah_komen h4
+{
+	color: hsl(81, 84%, 25%);
+	text-align: center;
+}
+@media screen and (max-width: 760px)
+{
+	.artikel
+	{
+		float: none;
+		width: 100%;
+		display: inline-block;
+	}
+	.container
+	{
+		width: 100%;
+		float: none;
+		margin: auto;
+	}
+	.header
+	{
+		text-align: center;
+		width: 100%;
+		margin: auto;
+	}
+	.headerstrip
+	{
+
+		width: 100%;
+		margin: auto;
+	}
+	.header2
+	{
+		height: auto;
+		width: 100%;
+		background-position: 0px 0px;
+	}
+	.content
+	{
+		float: none;
+		width: 100%;
+		padding: 0px;
+	}
+	.about
+	{
+		float: none;
+		width: 90%;
+	}
+	.footer
+	{
+		float: none;
+		width: 100%;
+	}
+	.topnav
+	{
+		float: none;
+		width: 100%;
+	}
+	.isi
+	{
+		border-right: none;
+	}
+	.headerright
+	{
+		padding: 0px;
+		margin: auto;
+		float: none;
+		width: 100%;
+	}
+}
